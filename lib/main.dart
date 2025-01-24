@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'JSON:API Viewer',
+      title: 'Project Articel',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: ArticleScreen(),
     );
@@ -46,7 +46,7 @@ class ArticleScreen extends StatelessWidget {
           }
         },
         "links": {"self": "http://example.com/articles/1"}
-      }
+      },
     ]
   };
 
