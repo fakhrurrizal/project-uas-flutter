@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
 class ArticleScreen extends StatelessWidget {
   ArticleScreen({super.key});
 
-  final Map<String, dynamic> jsonData = {
+  final Map<String, dynamic> dataArticle = {
     "data": [
       {
         "type": "articles",
@@ -52,7 +52,7 @@ class ArticleScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final articles = jsonData['data'] as List<dynamic>;
+    final articles = dataArticle['data'] as List<dynamic>;
 
     return Scaffold(
       appBar: AppBar(
